@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "mfsn"
+version = "0.1.0"
+description = "My Fisrt Social Network"
+authors = ["JirniyJirniy <nik.vardi127@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
