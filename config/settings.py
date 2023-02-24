@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'djoser',
 
-    'profiles',
+    'src'
 ]
 
 MIDDLEWARE = [
@@ -117,7 +117,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/4.0/topics/i18n/
 
-LANGUAGE_CODE = 'ru-ru'
+LANGUAGE_CODE = 'en-us'
 
 TIME_ZONE = 'UTC'
 
@@ -142,8 +142,6 @@ REST_FRAMEWORK = {
 }
 
 
-SIMPLE_JWT = {
-   # 'AUTH_HEADER_TYPES': ('JWT',),
-}
-
-AUTH_USER_MODEL = 'profiles.UserNet'
+# SIMPLE_JWT = {
+#    'AUTH_HEADER_TYPES': ('JWT',),
+# }
