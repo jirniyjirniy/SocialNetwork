@@ -3,7 +3,7 @@ from django.db import models
 
 
 class UserNet(AbstractUser):
-    '''Custom User Model'''
+    """Custom User Model"""
     GENDER = (
         ('male', 'male'),
         ('female', 'female')
@@ -16,3 +16,8 @@ class UserNet(AbstractUser):
     github = models.CharField(max_length=500, blank=True, null=True)
     birthday = models.DateField(blank=True, null=True)
     gender = models.CharField(max_length=100, choices=GENDER, default='male')
+
+
+class Technology(models.Model):
+    """Technology model"""
+
